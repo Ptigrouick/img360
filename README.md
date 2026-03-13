@@ -26,7 +26,7 @@ python main.py -a -p <pitch> -y <yaw> -r <roll> <image1_or_glob> [<image2_or_glo
 - `--roll` or `-r`: The roll adjustment in degrees, float value.
 - Optional `--quality` or `-q`: Quality of JPEG set to save the output picture, integer from 0 to 100, default 95.
 - Optional `--compression` or `-c`: Compression of PNG set to save the output picture, integer from 0 to 10, default 1.
-- <image1_or_glob>: Path to images or a glob pattern to match multiple images.
+- `<image1_or_glob>`: Path to images or a glob pattern to match multiple images.
 
 Example:
 
@@ -42,7 +42,7 @@ To launch the graphical user interface, run the following command:
 python main.py <image_or_glob>
 ```
 
-- <image_or_glob>: Path to images or a glob pattern to match multiple images, will open only the first if a list is given and no pitch, yaw, roll are provided.
+- `<image_or_glob>`: Path to images or a glob pattern to match multiple images, will open only the first if a list is given and no pitch, yaw, roll are provided.
 
 Example:
 
