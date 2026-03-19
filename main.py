@@ -49,7 +49,7 @@ def _get_parser():
 def main():
     args = _get_parser().parse_args()
 
-    if not args.pictures:
+    if args.pictures is None:
         print("No picture provided!")
         return
 
