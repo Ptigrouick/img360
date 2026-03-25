@@ -53,9 +53,8 @@ def main():
         print("No picture provided!")
         return
 
-    #should_display_gui = None in (args.pitch, args.roll, args.yaw)
     should_display_gui = True
-    if args.auto_adjust or args.pitch != None or args.roll != None or args.yaw != None:
+    if args.auto_adjust or args.pitch is not None or args.roll is not None or args.yaw is not None:
         should_display_gui = False
         args.pitch = 0 if args.pitch is None else args.pitch
         args.roll = 0 if args.roll is None else args.roll
